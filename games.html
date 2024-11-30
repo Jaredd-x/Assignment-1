@@ -9,22 +9,32 @@
 <body>
     <header>      
         <div class="header">
+
             <div class ="left-side">
                 <img id="Logo" src="ASG-1 Contents/Epic_Games_logo.png" alt="Epic Games Logo">
                 <h1 class = "epic-games-header">EPIC GAMES</h1>
                 <a id = "home" href="index.html">Home</a>
                 <a id = "browse" href="games.html">Browse</a>
-                <p3>Support</p3>
+                <a id = "support" href="support.html">Support</a>
                 <input type="text" class="search-bar" placeholder="Search...">
             </div>
 
             <div class="right-side">
-                <a class="download-button">Download</a>
+                <button id="download-button" class="main-download-button">Download</button>
                 <a class="ps4-button">Get it on PS4</a>
                 <a class="signin-button">Sign in</a>             
             </div>
+
         </div>
     </header>
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+          <span id="close-popup" class="close-button">&times;</span>
+          <h2>A world full of adventure awaits you.</h2>
+          <a href="ASG-1 Contents/Epic Games.zip" class="popup-download-button" download>Download Now!</a>
+        </div>
+    </div>
 
     <game-section1>
         <div class="photo-container" href="fortnite.html">
@@ -108,7 +118,7 @@
             <div class="new-items-box">
                 <div class="card">
                     <div class="front">
-                        <img src="ASG-1 Contents/overwatch" alt="Box 2" class="front-image">
+                        <img src="ASG-1 Contents/overwatch2-pfp" alt="Box 2" class="front-image">
                     </div>
                     <div class="back-overwatch2">
                         <h3 class="back-title">Overwatch 2</h3>
@@ -152,11 +162,11 @@
                 <h4>Latest News</h4>
                 <div class="news-item">
                     <p><strong>Fortnite Update:</strong> Chapter 5 is here! Check out the latest updates.</p>
-                    <a href="#">Read more</a>
+                    <a href="fortnite.html">Read more</a>
                 </div>
                 <div class="news-item">
                     <p><strong>Epic Store Sale:</strong> Grab your favorite games with up to 50% off!</p>
-                    <a href="#">Shop now</a>
+                    <a href="games.html">Shop now</a>
                 </div>
             </div>
     
