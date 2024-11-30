@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Epic Games Website
 My project involves creating a website inspired by Epic Games, designed to serve as a dynamic platform for gaming enthusiasts. The website will allow users to browse and download games while providing a 
 personalized experience through game recommendations. It will also feature a community section for gamers to connect, discuss, and share their experiences through the support page. The goal is to create an engaging,
@@ -17,16 +16,16 @@ I used a wireframe on github to first think of an idea before i coded it
 Link to wireframe: https://www.figma.com/design/YWtoL9aKgJn2CnkwdlRIUZ/Assignment-1-Wireframe---Front-End-Developement?node-id=0-1&t=OqqEHo1zTZtnChR7-1
 
 ## Features
-Navigation bar - Allows users to navigate around the website by having them press wherever they want to go to
-Interactive buttons - Most buttons in my website are interactable, whether it is by hovering over the button or even the button redirecting the user to another page of my website
-About Me Section - Displayed to allows users to understand the company
-Sponsors & Socials Section - Displayed to allow users to know who our sponsors are if they are intrigued and a socials section to keep up with our latest games/website updates or for more content
-Footer - Allows users to get important information and navigate through the website easier
-Browse page - Recommends games to users preferences, such as the most popular games currently, allowing them to keep up with the trends in the gaming community
-Flip over cards - In the "Our latest collaborations" section in the browse page, the cards are able to flip over whenever hovered over to give more information about the game
-Fortnite page - Allows users to see the reviews of the game, the genre and basically know more about the game and install it from there
-Support page - Allows users to leave a ticket that gives their feedback whether it is good or bad
-JS extension (Pop up) - Whenever a user tries to download the epic games browser, it makes a pop up appear and asks them to download it from the pop up
+Navigation bar - Allows users to navigate around the website by having them press wherever they want to go to <br>
+Interactive buttons - Most buttons in my website are interactable, whether it is by hovering over the button or even the button redirecting the user to another page of my website <br>
+About Me Section - Displayed to allows users to understand the company <br>
+Sponsors & Socials Section - Displayed to allow users to know who our sponsors are if they are intrigued and a socials section to keep up with our latest games/website updates or for more content <br>
+Footer - Allows users to get important information and navigate through the website easier <br>
+Browse page - Recommends games to users preferences, such as the most popular games currently, allowing them to keep up with the trends in the gaming community <br>
+Flip over cards - In the "Our latest collaborations" section in the browse page, the cards are able to flip over whenever hovered over to give more information about the game<br>
+Fortnite page - Allows users to see the reviews of the game, the genre and basically know more about the game and install it from there <br>
+Support page - Allows users to leave a ticket that gives their feedback whether it is good or bad <br>
+JS extension (Pop up) - Whenever a user tries to download the epic games browser, it makes a pop up appear and asks them to download it from the pop up <br>
 
 ## Technologies Used
 I used w3schools to learn more about html, css and javascript whenever i was unsure.
