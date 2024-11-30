@@ -1,3 +1,4 @@
+/* For background color */
 body {
     background-color: #0E1018;
     margin: 0;
@@ -42,21 +43,13 @@ body {
     text-decoration-line: none;
 }
 
-#home:hover {
-    border-bottom: 2px solid white;
-}
-
 #browse {
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
     cursor: pointer;
     text-decoration-line: none;
-}   
-
-#browse:hover {
-    border-bottom: 2px solid white;
-}
+} 
 
 #support {
     color: white;
@@ -65,6 +58,15 @@ body {
     cursor: pointer;
     text-decoration-line: none;
 }   
+
+/* Interactions for Navigation Bar */
+#home:hover {
+    border-bottom: 2px solid white;
+}
+
+#browse:hover {
+    border-bottom: 2px solid white;
+}
 
 #support:hover {
     border-bottom: 2px solid white;
@@ -149,6 +151,7 @@ p3 {
     cursor: pointer;
 }
 
+/* Interactions for Navigation Bar */
 #download-button:hover {
     background-color: #95B8FF;
 }
@@ -161,7 +164,7 @@ p3 {
     background-color: grey;
 }
 
-/* Popup Styles */
+/* For Pop-up extension (Javascript) */
 .popup {
     position: fixed;
     top: 0;
@@ -209,7 +212,6 @@ p3 {
     background-color: #95B8FF;
   }
   
-  /* Close Button Styles */
   .close-button {
     position: absolute;
     top: 10px;
@@ -224,7 +226,7 @@ p3 {
     transform: scale(1.2);
   }
   
-  /* Animation */
+  /* Animation for Pop-up */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -234,7 +236,7 @@ p3 {
     }
   }
 
-/* First Page First Panel */
+/* Home Page First Panel */
 
 .first-panel{
     display: flex;
@@ -302,7 +304,7 @@ p4 {
     background-color: rgb(163, 159, 159);
 }
 
-/* Second Panel */
+/* Home Page Second Panel */
 
 .second-panel {
     overflow:hidden;
@@ -411,7 +413,7 @@ p6 {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* About us */
+/* Home Page About us */
 
 .about-us {
     width: 95%;
@@ -553,7 +555,7 @@ footer {
     color: #007bff;
 }
 
-/* Game Part 1 */
+/* Game page section 1 */
 game-section1 {
     width: 100%;
     display: flex;
@@ -625,7 +627,7 @@ game-section1 {
     font-family: 'Inter', sans-serif;
 }
 
-/* Game Part 2 */
+/* Game page section 2 */
 
 .popular-text {
     display: flex;
@@ -743,7 +745,7 @@ game-section1 {
     color: white;
 }
 
-/* Game Part 3 */
+/* Game page section 1 */
 
 .collab-text {
     width: 90%;
@@ -759,7 +761,6 @@ game-section1 {
     font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
-
 
 #collaborations {
     color: white;
@@ -824,23 +825,23 @@ game-section1 {
     border-radius: 20px;
 }
 
-
+/* Back of cards */
 .back-valorant {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: flex-start; /* Start from the top */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 20px;
     font-weight: bold;
     color: white;
     background-color: #c54c4c;
     border-radius: 20px;
     transform: rotateY(180deg);
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -850,16 +851,16 @@ game-section1 {
     height: 100%;
     backface-visibility: hidden;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: flex-start; /* Start from the top */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 20px;
     font-weight: bold;
     color: white;
     background-color: #2d479c;
     border-radius: 20px;
     transform: rotateY(180deg);
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -869,16 +870,16 @@ game-section1 {
     height: 100%;
     backface-visibility: hidden;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: flex-start; /* Start from the top */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 20px;
     font-weight: bold;
     color: white;
     background-color: #6b76a7;
     border-radius: 20px;
     transform: rotateY(180deg);
-    padding: 20px; /* Add padding for better spacing */
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -920,7 +921,7 @@ game-section1 {
     }
 }
 
-/* fornite left side */
+/* Fortnite Page */
 .fortnite-section {
     display: flex;
     justify-content: space-between;
@@ -1003,6 +1004,7 @@ game-section1 {
     border-radius: 10px;
 }
 
+/* Right side of fortnite page */
 .fortnite-right {
     background-color: #202331;
     width: 36%;
@@ -1021,15 +1023,15 @@ game-section1 {
 
 .game-image img {
     width: 100%;
-    max-width: 500px; /* Adjust to fit the design */
+    max-width: 500px;
     border-radius: 10px;
     margin-top: 35px;
 }
 
 .fortnite-info {
     color: white;
-    text-align: center; /* Centers text inside fortnite-info */
-    width: 100%; /* Ensure it takes full width of its container */
+    text-align: center;
+    width: 100%;
 }
 
 .fortnite-price {
@@ -1045,27 +1047,26 @@ game-section1 {
     color: white;
 }
 
-
 .install-button {
     text-decoration: none;
-    padding: 12px 160px; /* Increased padding for width */
+    padding: 12px 160px;
     background-color: #f7b731;
     color: black;
     font-size: 18px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 100%; /* This ensures it fills its container */
-    max-width: 400px; /* Set a new max width */
+    width: 100%;
+    max-width: 400px;
     cursor: pointer;
     margin-top: 10px;
 }
 
 .install-button:hover {
-    background-color: #e08e10; /* Change color on hover */
+    background-color: #e08e10;
 }
 
-/* Support Container */
+/* Feedback page */
 .support-container {
     max-width: 800px;
     margin: 40px auto;
