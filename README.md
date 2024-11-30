@@ -36,42 +36,42 @@ Link to chatgpt: https://chatgpt.com/
 
 ## Testing
 1. Tested the home page
-   i. Ensured that the navigation bar was working, with all the buttons being interactable whether it is hovering or redirecting to another page
-   ii. Ensured that the images fit perfectly to ensure a good look on the website
-   iii. Tried to click all the navigation bar buttons
-   iv. Tried scroll up and down
-   v. Tried to hover over the Sponsors & Socials section
-   vi. Tried to use the navigation on the footer
+   - Ensured that the navigation bar was working, with all the buttons being interactable whether it is hovering or redirecting to another page
+   - Ensured that the images fit perfectly to ensure a good look on the website
+   - Tried to click all the navigation bar buttons
+   - Tried scroll up and down
+   - Tried to hover over the Sponsors & Socials section
+   - Tried to use the navigation on the footer
    
 2. Tested the browse page
-   i. Tried the button to redirect me to fortnite
-   ii. Tried to hover over the games that are popular currently
-   iii. Ensured all the images fit perfectly
-   iv. Tried to hover over the game collaboration cards to make sure that they flip over properly
+   - Tried the button to redirect me to fortnite
+   - Tried to hover over the games that are popular currently
+   - Ensured all the images fit perfectly
+   - Tried to hover over the game collaboration cards to make sure that they flip over properly
 
 3. Tested the support page
-   i. Typed in my name
-   ii. Typed in my email.
-   iii. Typed in my subject
-   iv. Typed in my feedback
-   v. Ensured that the button to submit worked
+   - Typed in my name
+   - Typed in my email.
+   - Typed in my subject
+   - Typed in my feedback
+   - Ensured that the button to submit worked
 
 4. Tested the fortnite page
-   i. Ensured that the page looked good with all the text and images perfectly alligned
-   ii. Ensured tha the buttons worked
+   - Ensured that the page looked good with all the text and images perfectly alligned
+   - Ensured tha the buttons worked
 
 5. Tested the footer and heading
-   i. Ensured that they both work in any page
+   - Ensured that they both work in any page
 
 6. Tested the js extension
-   i. Tried clicking the download button
-   ii. Tried to get out of the pop up that appeared
+   - Tried clicking the download button
+   - Tried to get out of the pop up that appeared
 
 7. Tested the responsiveness of the app
-   i. Tried to minimize my laptop view in inspect mode
-   ii. Found out that my website was unable to be responsive when the screen size got too small
-   iii. Tried to minimize my website to a phone size
-   iv. Found out that the website was unable to be responsive on phone size as the screen size is too small
+   - Tried to minimize my laptop view in inspect mode
+   - Found out that my website was unable to be responsive when the screen size got too small
+   - Tried to minimize my website to a phone size
+   - Found out that the website was unable to be responsive on phone size as the screen size is too small
 
 ## Credits
 ### Content
