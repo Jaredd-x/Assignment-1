@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 10px;
     background-color: #15171E;
 }
@@ -17,7 +18,7 @@ body {
     color: white;
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
 }
 
 .search-bar {
@@ -28,14 +29,14 @@ body {
     outline: none;
     background-color: #202331;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     width: 150px;
     transition: width 0.3s ease-in-out;
 }
-
+ 
 #home {
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     font-weight: bolder;
     cursor: pointer;
     text-decoration-line: none;
@@ -43,7 +44,7 @@ body {
 
 #browse {
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     font-weight: bolder;
     cursor: pointer;
     text-decoration-line: none;
@@ -51,7 +52,7 @@ body {
 
 p3 {
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     font-weight: bolder;
     cursor: pointer;
 
@@ -87,7 +88,7 @@ p3 {
     text-decoration: none;
     padding: 10px 40px;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     font-weight: bolder;
     border-radius: 10px;
     border: none;
@@ -103,7 +104,7 @@ p3 {
     text-decoration: none;
     padding: 10px 50px;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     font-weight: bolder;
     border-radius: 10px;
     border: none;
@@ -119,7 +120,7 @@ p3 {
     text-decoration: none;
     padding: 10px 50px;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     font-weight: bolder;
     border-radius: 10px;
     border: none;
@@ -171,7 +172,7 @@ p3 {
     color: white;
     border-radius: 10px;
     max-width: 400px;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     text-align: center;
     z-index: 1;
 }
@@ -222,19 +223,19 @@ p4 {
 
 .left-box {
     display: flex;
-    margin-left: 1050px;
+    margin-left: 1000px;
+    width: 100%;
 }
 
 .sponsor {
     position: relative;
     background-color: #202331;
-    width: 100%;
     padding: 20px 50px; 
     border-color: white;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     text-align: center;
     line-height: 200px;
 }
@@ -271,6 +272,7 @@ p5 {
     display: flex;  
     justify-content: right;
     margin-right: 1000px;
+    width: 100%;
 }
 
 .socials {
@@ -283,7 +285,7 @@ p5 {
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     text-align: center;
     line-height: 200px;
 }
@@ -353,7 +355,7 @@ p6 {
 footer {
     background-color: #15171E;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     padding: 40px 20px;
     margin-top: 100px;
 }
@@ -424,7 +426,6 @@ footer {
     color: #007bff;
 }
 
-/* Company Info */
 .footer-info p {
     margin-bottom: 10px;
     font-size: 14px;
@@ -459,6 +460,78 @@ footer {
     color: #007bff;
 }
 
+/* Game Part 1 */
+game-section1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.photo-container {
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    background-image: url("ASG-1 Contents/fornite-banner4.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.description {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    max-width: 60%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.join-now-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #5372F0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.join-now-button:hover {
+    background-color: #415bb5;
+    transform: scale(1.05);
+}
+
+.description h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.description p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+}
+
 /* Game Part 2 */
 
 .popular-text {
@@ -468,13 +541,15 @@ footer {
     width: 90%;
     margin: 0 auto;
     padding-top: 20px;
+    overflow: hidden;
 }
 
 #most-popular {
     color: white;
     font-size: 25px;
     font-weight: 600;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
+    overflow-wrap: break-word;
 }
 
 #popular-viewmore {
@@ -502,6 +577,7 @@ footer {
     align-items: center;
     padding-top: 20px;
     margin-left: 5%;
+    margin-bottom: 100px;
 }
 
 .card-list {
@@ -517,7 +593,8 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
+    text-overflow: ellipsis;
 }
 
 .card-list .card-item {
@@ -573,74 +650,179 @@ footer {
     color: white;
 }
 
-/* Game Part 1 */
-game-section1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    position: relative;
-}
+/* Game Part 3 */
 
-.photo-container {
-    position: relative;
-    width: 80%;
-    height: 80vh;
-    background-image: url("ASG-1 Contents/fornite-banner4.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.collab-text {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
     overflow: hidden;
+    text-align: center;
 }
 
-.description {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+#collab {
     color: white;
-    max-width: 60%;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#collaborations {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    overflow-wrap: break-word;
+}
+
+.new-items-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202331;
+    padding: 10px;  
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* Box container styling */
+.new-items-box {
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    text-align: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    padding: 8px 16px;;
+    perspective: 1000px;
 }
 
-.join-now-button {
-    display: inline-block;
-    padding: 12px 30px;
-    font-size: 1rem;
-    font-family: 'Roboto';
+/* Card container for the flip effect */
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+/* Front face of the card */
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.back-valorant {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Start from the top */
+    font-size: 20px;
     font-weight: bold;
     color: white;
-    background-color: #5372F0;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #c54c4c;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box;
 }
 
-.join-now-button:hover {
-    background-color: #415bb5;
-    transform: scale(1.05);
-}
-
-.description h2 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
+.back-overwatch2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Start from the top */
+    font-size: 20px;
     font-weight: bold;
-    font-family: 'Roboto';
+    color: white;
+    background-color: #2d479c;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box;
 }
 
-.description p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    font-family: 'Roboto';
+.back-overcooked {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Start from the top */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #6b76a7;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box;
+}
+
+.back-title {
+    margin-top: 25%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.back-paragraph {
+    margin-top: 40px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    overflow: hidden;
+    line-height: 1.3;
+}
+
+/* Flip effect on hover */
+.new-items-box:hover .card {
+    transform: rotateY(180deg);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1500px) {
+    .new-items-box {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .new-items-box {
+        height: 200px;
+    }
 }
