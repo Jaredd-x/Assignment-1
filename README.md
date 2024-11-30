@@ -28,11 +28,11 @@ Support page - Allows users to leave a ticket that gives their feedback whether 
 JS extension (Pop up) - Whenever a user tries to download the epic games browser, it makes a pop up appear and asks them to download it from the pop up
 
 ## Technologies Used
-I used w3schools to learn more about html, css and javascript whenever i was unsure
-Link to w3schools: https://www.w3schools.com/html/
+I used w3schools to learn more about html, css and javascript whenever i was unsure.
+- Link to w3schools: https://www.w3schools.com/html/
 
-I also used chatgpt for some special effects that i was unable to find on w3schools
-Link to chatgpt: https://chatgpt.com/
+I also used chatgpt for some special effects that i was unable to find on w3schools.
+- Link to chatgpt: https://chatgpt.com/
 
 ## Testing
 1. Tested the home page
@@ -81,7 +81,7 @@ Link to chatgpt: https://chatgpt.com/
 - The photos that i used were mostly from [wikipedia](https://www.wikipedia.org/) and [epic games store](https://store.epicgames.com/en-US/)
 ### Acknowledgements
 - I took inspirations from many different gaming websites which are listed here:
-Epic Games: https://store.epicgames.com/en-US/
-Riot Games: https://www.riotgames.com/en
-EA: https://www.ea.com/sports
-Ubisoft: https://www.ubisoft.com/en-sg/
+- Epic Games: https://store.epicgames.com/en-US/
+- Riot Games: https://www.riotgames.com/en
+- EA: https://www.ea.com/sports
+- Ubisoft: https://www.ubisoft.com/en-sg/
