@@ -42,6 +42,10 @@ body {
     text-decoration-line: none;
 }
 
+#home:hover {
+    border-bottom: 2px solid white;
+}
+
 #browse {
     color: white;
     font-family: 'Inter', sans-serif;
@@ -49,6 +53,10 @@ body {
     cursor: pointer;
     text-decoration-line: none;
 }   
+
+#browse:hover {
+    border-bottom: 2px solid white;
+}
 
 p3 {
     color: white;
@@ -825,4 +833,149 @@ game-section1 {
     .new-items-box {
         height: 200px;
     }
+}
+
+/* fornite left side */
+.fortnite-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+}
+
+/* Left Side */
+.fortnite-left {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.game-title {
+    font-size: 36px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.ratings {
+    display: flex;
+    color: white;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.fornite-genre {
+    display: flex;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.genre1  {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #202331;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.genre1:hover {
+    background-color: gray;
+}
+
+.tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.tabs a.active {
+    border-bottom: 2px solid white;
+}
+
+.game-preview {
+    position: relative;
+    margin-top: 20px;
+}
+
+.game-preview img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.fortnite-right {
+    background-color: #202331;
+    width: 36%; /* Adjust the width as necessary */
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center; /* Center content horizontally */
+    margin-top: 190px;
+    border-radius: 10%;
+    padding: 20px; /* Added padding for spacing */
+    box-sizing: border-box; /* Ensures padding is included in total width/height */
+}
+
+.game-image img {
+    width: 100%;
+    max-width: 500px; /* Adjust to fit the design */
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.fortnite-info {
+    color: white;
+    text-align: center; /* Centers text inside fortnite-info */
+    width: 100%; /* Ensure it takes full width of its container */
+}
+
+.fortnite-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.in-app-purchases {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+.install-button {
+    text-decoration: none;
+    padding: 12px 160px; /* Increased padding for width */
+    background-color: #f7b731;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%; /* This ensures it fills its container */
+    max-width: 400px; /* Set a new max width */
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.install-button:hover {
+    background-color: #e08e10; /* Change color on hover */
 }
